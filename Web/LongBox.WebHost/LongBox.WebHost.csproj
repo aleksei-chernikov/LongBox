@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Common\CQRS\Otreya.Common.CQRS.Implementation.Net\Otreya.Common.CQRS.Implementation.Net.csproj" />
+      <ProjectReference Include="..\..\Common\Otreya.Common.Swagger\Otreya.Common.Swagger.csproj" />
+      <ProjectReference Include="..\..\Telegram\LongBox.Telegram.WebApp\LongBox.Telegram.WebApp.csproj" />
+      <ProjectReference Include="..\LongBox.WebApp\LongBox.WebApp.csproj" />
+    </ItemGroup>
+
+</Project>
